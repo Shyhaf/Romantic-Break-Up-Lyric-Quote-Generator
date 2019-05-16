@@ -10,8 +10,8 @@ html, .row{
 
 body{
     background-image:url('../img/header.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
+    height: 100%;
+    background-repeat: repeat-y;
     background-size: cover; 
 }
 
@@ -89,6 +89,7 @@ button{
     font-size: 1.7em;
     font-weight: 400;
     margin-top: 30px;
+    height: 100%;
 
 }
 
@@ -97,7 +98,7 @@ button{
 input{
     border-radius:20px;
    text-align: center;
-   color:teal;
+   color: black;
    font-weight: 700;
        
    }
@@ -106,53 +107,151 @@ label{
     font-size: 1.6rem;
     font-weight: 500;
     margin-top: 30px;
-    color: rgb(3, 41, 37);
+    color:whitesmoke;
     text-align: center;
 }
 
 /* media queries */
 
 
-@media (max-width: 576px) {
-   
-    body{
-        background-image:url('../img/header.jpg');
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-color: teal;
-    }
-    
-  
-}
 
-@media (max-width: 768px) {
-    .quotes{
-        font-size: 1.5em;
-    }
-    body{
-        background-image:url('../img/header.jpg');
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover; 
-    }
-
-}
 
 @media(min-width: 768px ){
-    .quotes{
-        font-size: 1.6em;
+    
+
+    .quotes, #quit, label, #btn-custom, #btn-custom2{
+        font-size: 1.7em;
+    }
+    #quit{
+        font-size: 2em;
+    }
+    #numberOfQuotes{
+        
+        font-size: 1.5em;
+
+    }
+    label{
+        color: whitesmoke;
+    }
+    body{
+        background-image:url('../img/header.jpg');
+        height: 100%;
+        background-repeat: repeat-y;
+        background-size: cover; 
+    }
+    #heading{
+        font-size: 3em;
+    }
+
+    p{
+        margin-bottom: 1em;
+        font-size: 2.5em;
+        text-align: center;
     }
 }
-@media (min-width: 992px) {
+    
+@media(min-width: 992px ){
+    
 
+    .quotes, #quit, label, #btn-custom, #btn-custom2{
+        font-size: 1.7em;
+    }
+    #quit{
+        font-size: 2em;
+    }
+    #numberOfQuotes{
+        
+        font-size: 1.5em;
+
+    }
+    label{
+        color: whitesmoke;
+    }
+    body{
+        background-image:url('../img/header.jpg');
+        height: 100%;
+        background-repeat: repeat-y;
+        background-size: cover; 
+    }
+    #heading{
+        font-size: 3em;
+    }
+
+    p{
+        margin-bottom: 1em;
+        font-size: 2.5em;
+        text-align: center;
+    }
+}
+@media (min-width: 576px) {
+    .quotes, #quit, label, #btn-custom, #btn-custom2{
+        font-size: 3em;
+    }
+    #btn-custom, #btn-custom2{
+        height: 150px;
+        white-space: pre-wrap;
+    }
+    #numberOfQuotes{
+        height: 50px;
+        font-size: 3em;
+
+    }
+    #heading{
+        font-size: 4em;
+    }
+
+    #sub-heading {
+        font-size: 3em;
+    }
+    body{
+        background-image:url('../img/header.jpg');
+        height: 100%;
+        background-repeat: repeat-y;
+        background-size: cover; 
+    }
+   label{
+       color:coral;
+   }
+
+   p{
+    margin-bottom: 1em;
+    font-size: 3em;
+    text-align: center;
+    color:white;
+}
 }
 
 @media (min-width: 1200px) {
 
+    .quotes, #quit, label, #btn-custom, #btn-custom2{
+        font-size: 1.7em;
+    }
+    #quit{
+        font-size: 2em;
+    }
+    #numberOfQuotes{
+        
+        font-size: 1.5em;
 
+    }
+    label{
+        color: whitesmoke;
+    }
+    body{
+        background-image:url('../img/header.jpg');
+        height: 100%;
+        background-repeat: repeat-y;
+        background-size: cover; 
+    }
+    #heading{
+        font-size: 3em;
+    }
 
-
+    p{
+        margin-bottom: 1em;
+        font-size: 2.5em;
+        text-align: center;
+    }
 
 }
 
