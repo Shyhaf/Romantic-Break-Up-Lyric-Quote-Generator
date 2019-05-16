@@ -257,12 +257,12 @@ label{
 
 }
 
-@media (min-width: 0px) {
+@media (min-width: 0px) and (max-width: 575px) {
     .quotes, #quit, label, #btn-custom, #btn-custom2{
         font-size: 1.6em;
     }
     #quit{
-        font-size: 2em;
+        font-size: 1.6em;
     }
     #numberOfQuotes{
         
