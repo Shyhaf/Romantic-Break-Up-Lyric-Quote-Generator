@@ -246,7 +246,9 @@ label{
     #heading{
         font-size: 3em;
     }
-
+    #sub-heading{
+        font-size: 2em;
+    }
     p{
         margin-bottom: 1em;
         font-size: 2.5em;
@@ -257,7 +259,7 @@ label{
 
 @media (min-width: 0px) {
     .quotes, #quit, label, #btn-custom, #btn-custom2{
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
     #quit{
         font-size: 2em;
@@ -280,11 +282,11 @@ label{
         font-size: 1.5em;
     }
     #sub-heading{
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
     p{
         margin-bottom: 1em;
-        font-size: 2.5em;
+        font-size: 2em;
         text-align: center;
     }
 
