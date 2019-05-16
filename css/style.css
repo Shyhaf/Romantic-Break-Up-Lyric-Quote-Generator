@@ -277,13 +277,19 @@ label{
         background-size: cover; 
     }
     #heading{
-        font-size: 1,5em;
+        font-size: 1.5em;
     }
-
+    #sub-heading{
+        font-size: 1.1em;
+    }
     p{
         margin-bottom: 1em;
         font-size: 2.5em;
         text-align: center;
+    }
+
+    button{
+        height: 100px;
     }
 }
 
