@@ -154,10 +154,10 @@ label{
     
 
     .quotes, #quit, label, #btn-custom, #btn-custom2{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     #quit{
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
     #numberOfQuotes{
         
@@ -166,6 +166,7 @@ label{
     }
     label{
         color: whitesmoke;
+        font-size: 1.2em;
     }
     body{
         background-image:url('../img/header.jpg');
@@ -174,7 +175,7 @@ label{
         background-size: cover; 
     }
     #heading{
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
 
     p{
@@ -182,6 +183,8 @@ label{
         font-size: 2.5em;
         text-align: center;
     }
+
+    
 }
 @media (min-width: 576px) {
     .quotes, #quit, label, #btn-custom, #btn-custom2{
@@ -224,7 +227,7 @@ label{
 @media (min-width: 1200px) {
 
     .quotes, #quit, label, #btn-custom, #btn-custom2{
-        font-size: 1.7em;
+        font-size: 1.9em;
     }
     #quit{
         font-size: 2em;
@@ -264,6 +267,42 @@ label{
     }
     #quit{
         font-size: 2.1em;
+    }
+    #numberOfQuotes{
+        
+        font-size: 1.5em;
+
+    }
+    label{
+        color: whitesmoke;
+    }
+    body{
+        background-image:url('../img/header.jpg');
+        height: 100%;
+        background-repeat: repeat-y;
+        background-size: cover; 
+    }
+    #heading{
+        font-size: 4.5em;
+    }
+    #sub-heading{
+        font-size: 2.7em;
+    }
+    p{
+        margin-bottom: 1em;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1680px) {
+
+    .quotes, #quit, label, #btn-custom, #btn-custom2{
+        font-size: 2.5em;
+    }
+    #quit{
+        font-size: 2.3em;
     }
     #numberOfQuotes{
         
