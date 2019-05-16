@@ -299,10 +299,10 @@ label{
 @media (min-width: 1680px) {
 
     .quotes, #quit, label, #btn-custom, #btn-custom2{
-        font-size: 2.5em;
+        font-size: 2.8em;
     }
     #quit{
-        font-size: 2.3em;
+        font-size: 2.6em;
     }
     #numberOfQuotes{
         
