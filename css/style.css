@@ -1,0 +1,159 @@
+/*base styles*/
+html, .row{
+    padding-left: -15px;
+    padding-right: -15px;
+    margin: 0;
+    font-size: 12px;
+}
+
+/*body styles*/
+
+body{
+    background-image:url('../img/header.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#heading{
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+    background-color: #00e673;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+    background-color: black;
+    color:#00e673!important;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+p{
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.quotes{
+    max-height: 1800px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1em;
+    color: whitesmoke;
+}
+
+/*button styles*/
+
+
+button{
+    height: 75px;
+    margin-top: 300px;
+   }
+
+
+#btn-custom, #btn-custom2 {
+    color:whitesmoke;
+    background-color: teal;
+    border-color: teal;
+    font-size: 1.7em;
+    font-weight: 400;
+    white-space: pre-wrap;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+ #btn-custom2{
+     background-color: coral;
+     border-color:coral;
+ }
+
+
+ #quit{
+    background-color:black;
+    border: black;
+    border-radius: 20px;
+    white-space: pre-wrap;
+    color:  #00e673;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+/*form styles*/
+
+input{
+    border-radius:20px;
+   text-align: center;
+   color:teal;
+   font-weight: 700;
+       
+   }
+   
+label{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 30px;
+    color: rgb(3, 41, 37);
+    text-align: center;
+}
+
+/* media queries */
+
+
+@media (max-width: 576px) {
+   
+    body{
+        background-image:url('../img/header.jpg');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-color: teal;
+    }
+    
+  
+}
+
+@media (max-width: 768px) {
+    .quotes{
+        font-size: 1.5em;
+    }
+    body{
+        background-image:url('../img/header.jpg');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+
+}
+
+@media(min-width: 768px ){
+    .quotes{
+        font-size: 1.6em;
+    }
+}
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+
+
+
+
+}
+
+
